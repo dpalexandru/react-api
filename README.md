@@ -43,12 +43,7 @@ Stampare un’unica lista che contiene attori e attrici insieme!
 BONUS 3 🤯
 Inserire un filtro di ricerca che permetta di cercare gli attori o le attrici per nome (come abbiamo fatto ieri ed oggi in correzione). 
 
-<aside>
-🪄
-Se questa task è troppo difficile, prova ad aiutarti con l’AI!  
-
-Cerca però sempre di comprendere quello che ti viene suggerito 😉
-
-</aside>
 
 Buon lavoro!
+
+# C O N S E G N A 02/09/2025
