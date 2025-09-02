@@ -26,7 +26,10 @@ function App() {
 
   return (
     <>
-      <h1>actress</h1>
+      <header className='app-header'>
+        <h1>Wonderful Cast</h1>
+
+      </header>
       <div className="container">
         <div className="row">
 
@@ -40,9 +43,7 @@ function App() {
                     <p className="card-text">{actress.birth_year}</p>
                     <p className="card-text">{actress.nationality}</p>
                     <p className="card-text">{actress.biography}</p>
-                    <p className="card-text">{actress.awards}</p>
-
-
+                    <p className="card-text">Awards: <br />{actress.awards}</p>
                   </div>
                 </div>
               </div>

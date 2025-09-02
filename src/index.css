@@ -3,3 +3,70 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+/* H E A D E R*/
+
+.app-header {
+    background-color: #003366;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.app-header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+/* C A R D */
+
+.card {
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1.5rem;
+    background-color: #003366;
+}
+
+.card-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: white;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: lightgray;
+    margin-bottom: 0.4rem;
+}
+
+.card-text:first-of-type {
+    font-weight: 600;
+    color: #007bff;
+    font-style: italic;
+}
+
+.card-text:last-of-type {
+    font-weight: 600;
+    color: #ff6600;
+    font-style: italic;
+}
